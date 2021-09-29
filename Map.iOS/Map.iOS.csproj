@@ -113,6 +113,26 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\infoicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\infoicon.imageset\infoicon.png" />
+    <ImageAsset Include="Assets.xcassets\northarrowicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\northarrowicon.imageset\northarrowicon.png" />
+    <ImageAsset Include="Assets.xcassets\binocularicon.imageset\binocularicon.png" />
+    <ImageAsset Include="Assets.xcassets\binocularicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\houseicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\houseicon.imageset\houseicon.png" />
+    <ImageAsset Include="Assets.xcassets\briefcaseicon.imageset\briefcaseicon.png" />
+    <ImageAsset Include="Assets.xcassets\briefcaseicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\addicon.imageset\addicon.png" />
+    <ImageAsset Include="Assets.xcassets\addicon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\bar.imageset\bar.jpeg" />
+    <ImageAsset Include="Assets.xcassets\bar.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ribeyestake.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\ribeyestake.imageset\ribeyestake-1.jpeg" />
+    <ImageAsset Include="Assets.xcassets\sandwich.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\sandwich.imageset\sandwich.jpeg" />
+    <ImageAsset Include="Assets.xcassets\addcuadrado.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\addcuadrado.imageset\addcuadrado.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -132,5 +152,17 @@
       <Project>{A1EE4A5C-B776-4AF5-BB0E-5599FB8EF8AC}</Project>
       <Name>Map</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\infoicon.imageset\" />
+    <Folder Include="Assets.xcassets\northarrowicon.imageset\" />
+    <Folder Include="Assets.xcassets\binocularicon.imageset\" />
+    <Folder Include="Assets.xcassets\houseicon.imageset\" />
+    <Folder Include="Assets.xcassets\briefcaseicon.imageset\" />
+    <Folder Include="Assets.xcassets\addicon.imageset\" />
+    <Folder Include="Assets.xcassets\bar.imageset\" />
+    <Folder Include="Assets.xcassets\ribeyestake.imageset\" />
+    <Folder Include="Assets.xcassets\sandwich.imageset\" />
+    <Folder Include="Assets.xcassets\addcuadrado.imageset\" />
   </ItemGroup>
 </Project>

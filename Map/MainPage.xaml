@@ -1,24 +1,134 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Map.MainPage">
+             x:Class="Map.MainPage"
+             BackgroundColor="Black">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <StackLayout Padding="20,60"
+                 VerticalOptions="Start">
+         <StackLayout Spacing="1">
+
+             <Image Source="infoicon"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    HorizontalOptions="End"/>
+            
+            <Image Source="northarrowicon"
+                   HeightRequest="50"
+                   HorizontalOptions="End"/>
+          </StackLayout>
+        
+            <Image Source="binocularicon"
+                   HeightRequest="35"
+                   HorizontalOptions="End"/>
+
+        <Frame>
+
+            <StackLayout>
+                     <Entry Placeholder="Search Maps"/>
+
+                <StackLayout Orientation="Horizontal">
+
+                     <Label Text="Favorites"
+                            TextColor="Gray"
+                             FontSize="15"
+                            HorizontalOptions="StartAndExpand"/>
+
+                     <Label Text="See All"
+                            TextColor="#007AFF"
+                             FontSize="15"
+                            HorizontalOptions="EndAndExpand"/>
+                    
+                </StackLayout>
+                       <BoxView HeightRequest="0.5"
+                                BackgroundColor="Gray"/>
+
+                    <StackLayout Orientation="Horizontal">
+
+                        <Image Source="houseicon"
+                               WidthRequest="60"/>
+
+                        <Image Source="briefcaseicon"
+                               WidthRequest="60"/>
+
+                        <Image Source="addicon"
+                               WidthRequest="60"/>
+                   </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="31">
+
+                        <Label Text="Home" />
+                        <Label Text="Work"/>
+                        <Label Text="Add"/>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="53">
+                        <Label Text="Add"
+                               TextColor="Gray"
+                               FontSize="15"/>
+
+                        <Label Text="Add"
+                               TextColor="Gray"
+                               FontSize="15"/>
+
+                    </StackLayout>
+
+                   <StackLayout Orientation="Horizontal"
+                                Padding="0,15">
+                       <Label Text="Editors'Picks"
+                              TextColor="Gray"
+                              FontSize="15"/>
+
+                       <Label Text="See All"
+                              TextColor="#007AFF"
+                               FontSize="15"
+                              HorizontalOptions="EndAndExpand"/>
+
+                   </StackLayout>
+
+                <ScrollView HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal">
+                       <Image Source="bar"
+                              WidthRequest="250"/>
+
+                       <Image Source="ribeyestake"
+                              WidthRequest="330"/>
+
+                       <Image Source="sandwich"
+                              WidthRequest="320"/>
+
+                    </StackLayout>
+                </ScrollView>
+
+                <Label Text="My Guides"
+                       TextColor="Gray"
+                        FontSize="15"/>
+                <BoxView HeightRequest="0.5"
+                         BackgroundColor="Gray"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="addcuadrado"
+                           WidthRequest="40"/>
+
+                    <Label Text="New Guide"
+                           
+                           TextColor="#007AFF"/>
+
+
+                </StackLayout>
+
+
+                
+            </StackLayout>
+
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        
+        </StackLayout>
+              
     </StackLayout>
 
 </ContentPage>
